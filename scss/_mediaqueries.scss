@@ -1,0 +1,230 @@
+
+@media (min-width: 320px)  {
+
+    .navbar { 
+        background-image: url(../images/main.jpg);
+        width: 53vh;
+        height: auto;
+
+        li {
+
+        display: flex;
+        justify-content: center;
+
+        }
+
+        }
+
+        .footer {
+            width: 100vh;
+            
+            .grupo-1 { 
+                grid-template-columns: repeat(1, 1fr); 
+                grid-gap: 30px;
+                padding: 35px 0px;
+            
+        }
+
+        }
+
+
+            .images {
+                padding: 4px;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+            .container-img {
+                border: 1px solid #ff0000;
+                padding: 3px;
+                display: flex;
+                justify-content: space-evenly;
+                width: 90%;
+            }
+
+            .galeria {
+                width: 100%;
+            }   
+        
+        }
+
+           #bgvideo {
+            width: 90vh;
+        }
+
+        #partners {
+            width: 53vh;
+            
+        }
+    
+        #main-logo {
+            font-size: 1.2rem;
+        }
+    
+        .flex-contain {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            margin: 5px;
+            position: relative;
+            left: 15%;
+
+            .h2-center {
+                font-size: 1.8rem;
+                text-align: center;
+                position: relative;
+                top: 3rem;
+                padding: 5px;
+                margin: 5px;
+                color: #ffffff;
+            }
+            
+            .p-nov {
+                font-family: Montserrat,sans-serif;
+                font-size: 1rem;
+                padding: 5px 5px 5px 0;
+                margin: 0;
+                font-weight: 400;
+                text-align: center;
+                position: relative;
+                top: 3rem;
+                color: #ffffff;
+            }
+    
+        }
+    
+   }
+
+
+    
+
+@media (min-width: 768px) { 
+    .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%; }
+
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .navbar {
+        width: 110%;
+        height: auto;
+    }
+
+    #bgvideo {
+        width: 110%;
+        height: auto;
+    }
+    
+    #partners {
+        width: 110%;
+        height: auto;
+    }
+    
+    .images {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+
+    .galeria {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .container-img {
+        display: flex;
+        justify-content: center;
+         width: 80%;
+         height: auto;
+    }
+
+}
+
+    .flex-contain {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 0;
+        
+
+    }
+
+
+
+}
+
+@media (min-width: 1024px) { 
+
+    .images {
+        display: flex;
+        flex-direction: row;
+
+    .container-img {
+        width: 100%;
+        margin: 0px;
+        height: 25vh;
+    }
+
+}
+
+.footer { 
+        width: 100%;
+      .grupo-1 {  grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 50px 0px;
+    }
+
+     }
+
+}
+
+@media (min-width: 1440px) { 
+
+    .navbar {
+        width: 100%;
+    }
+
+    #bgvideo {
+        width: 100%;
+    }
+    
+    #partners {
+        width: 100%;
+    }
+
+    .container-img {
+        border: 1px solid #ff0000;
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 195px;
+    
+    
+    .images {
+            padding: 4px;
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+     }
+
+}
+
+     .footer {  
+        width: 100%;
+      .grupo-1 {  
+	    grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 50px 0px;
+    }
+
+    }
+
+}
