@@ -87,7 +87,7 @@
         text-align: center;
         font-family: 'Cinzel Decorative', cursive;
         font-size: 1.2rem;
-        color: #ffffff;
+        color: $color-texto;
         padding: 5px;
     }
 }
@@ -117,7 +117,7 @@ height: 195px;
         top: 5rem;
         padding: 5px;
         margin: 5px;
-        color: #ffffff;
+        color: $color-texto;
     }
     
     .p-nov {
@@ -129,7 +129,7 @@ height: 195px;
         text-align: center;
         position: relative;
         top: 5rem;
-        color: #ffffff;
+        color: $color-texto;
     }
     
     p {
@@ -138,7 +138,7 @@ height: 195px;
         padding: 5px 5px 5px 0;
         margin: 0;
         font-weight: 400;
-        color: #ffffff;
+        color: $color-texto;
     }
 }
 
@@ -211,7 +211,7 @@ height: 195px;
     }
 
     .short-hr-center {
-        color: #ffffff;
+        color: $color-texto;
     }
 
 
