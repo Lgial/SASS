@@ -1,8 +1,10 @@
+
+@import "_nav.scss";
 @import "_variables.scss";
 @import "_body.scss";
 @import "_nav.scss";
-@import "_footer";
 @import "_mediaqueries.scss";
+@import "_footer";
 
 
 #bgvideo {
@@ -17,7 +19,7 @@
     padding: 15px 0;
     position: relative;
     text-align: center; 
-    border: 5px solid #7f520b;
+    //*border: 5px solid #7f520b;//*
 
     .mb-1 {
         margin-bottom: 0.25rem!important;

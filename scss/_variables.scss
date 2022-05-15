@@ -1,2 +1,48 @@
 $tipografia-general: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifwd;
 $color-texto: #ffffff;
+
+// theme colors
+$primary: #ffffff;
+$secondary: #ff0000;
+$border:#7f520b;
+$subtitle: #fbf292;
+
+// color paletts
+$colors: (
+"$primary": $primary,
+"$secondary": $secondary,
+"$border": $border,
+"$subtitle": $subtitle,
+"blue": #1919e6,
+"red": #e61919,
+"yellow": #e6e619,
+"green": #19e635,
+"orange": #ffa600,
+"purple": #9900ff,
+"gray": #808080,
+"black": black,
+"white": white,
+) ;
+
+
+
+
+// spacing
+$base-padding: 5px;
+$base-margin: 5px;
+
+// borders
+$base-border-radius: 4px;
+$base-border-thickness: 1px;
+
+// font-size
+
+@mixin caja_personalizada { 
+    background-image: url(../images/main.jpg);
+    border-top: 2px $border solid;
+    
+}
+
+#partners {
+    @include caja_personalizada()
+}

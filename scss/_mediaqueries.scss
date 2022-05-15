@@ -2,8 +2,8 @@
 @media (min-width: 320px)  {
 
     .navbar { 
-        background-image: url(../images/main.jpg);
-        width: 53vh;
+        background-image: url(../images/navbar.jpg);
+        width: 97vh;
         height: auto;
 
         li {
@@ -16,7 +16,7 @@
         }
 
         .footer {
-            width: 100vh;
+            width: 53vh;
             
             .grupo-1 { 
                 grid-template-columns: repeat(1, 1fr); 
@@ -50,11 +50,11 @@
         }
 
            #bgvideo {
-            width: 90vh;
+            width: 100%;
         }
 
         #partners {
-            width: 53vh;
+            width: 100vh;
             
         }
     
@@ -92,6 +92,10 @@
                 color: $color-texto;
             }
     
+        }
+
+        .section-center {
+            width: 100%;
         }
     
    }
