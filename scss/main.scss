@@ -1,17 +1,9 @@
-
-@import "_nav.scss";
 @import "_variables.scss";
+@import "_nav.scss";
 @import "_body.scss";
 @import "_nav.scss";
 @import "_mediaqueries.scss";
 @import "_footer";
-
-
-    #bgvideo {
-        width: 100vh;
-        height: auto;
-        object-fit: contain;
-    }
 
 
 #partners {
@@ -20,7 +12,7 @@
     padding: 15px 0;
     position: relative;
     text-align: center; 
-    //*border: 5px solid #7f520b;//*
+    border-top: 3px solid map-get($map: $colors , $key: "border" );
 
     .mb-1 {
         margin-bottom: 0.25rem!important;
@@ -56,7 +48,7 @@
          height: 82px;
          justify-content: center;
          text-align: center;
-         color: #fbf292 !important;
+         color: map-get($map: $colors, $key:"subtitle") !important;
         }
      
  
@@ -73,11 +65,8 @@
 }
 
 .section-center {
-    border-top: 1px solid #7f520b;
-    border-bottom: 1px solid #7f520b;
-    border-radius: 4px;
-    width: 100vh;
-    height: auto;
+    
+    @include caja_personalizada;
 
     h2 {
         color: #fbf292;
@@ -250,7 +239,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 font-family: 'Cinzel Decorative', cursive;
-color: #ff0000;
+color: map-get($map: $colors , $key:"red" );
 padding: 20px;
 margin: auto;
 

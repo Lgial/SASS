@@ -3,7 +3,7 @@
 
     .navbar { 
         background-image: url(../images/navbar.jpg);
-        width: 97vh;
+        width: 100vh;
         height: auto;
 
         li {
@@ -17,15 +17,13 @@
 
         .footer {
             width: 53vh;
-            
-            .grupo-1 { 
-                grid-template-columns: repeat(1, 1fr); 
-                grid-gap: 30px;
-                padding: 35px 0px;
-            
         }
 
-        }
+        .grupo-1 { 
+            grid-template-columns: repeat(1, 1fr); 
+            grid-gap: 30px;
+            padding: 35px 0px;
+    }
 
 
             .images {
@@ -202,6 +200,7 @@
 
     #bgvideo {
         width: 100%;
+        height: 100%;
     }
     
     #partners {
