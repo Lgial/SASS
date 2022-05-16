@@ -95,7 +95,12 @@
         }
 
         .section-center {
-            width: 100%;
+        width: 100%;
+        border-top: 1px solid map-get($map: $colors , $key: "border" );
+        border-bottom: 1px solid map-get($map: $colors , $key: "border" );
+        border-radius: 4px;
+        width: 100vh;
+        height: auto;
         }
     
    }

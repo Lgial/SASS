@@ -27,7 +27,7 @@
     }
 
     .separator-top {
-        border-top: 3px solid var(--color-1st);
+        border-top: 3px solid map-get($map: $colors , $key: "border" );
         width: 100%;
     }
 
@@ -66,11 +66,6 @@
      
         }    
 }
-
-:root {
-    --color-1st: #7f520b !important;
-    --color-2st: #fbf292 !important;
-} 
 
 
 *, ::after, ::before {
